@@ -6,6 +6,7 @@ module.exports = {
     'justify' : require('../assets/icons/align-justify.svg')
   },
   'background': require('../assets/icons/background.svg'),
+  'hr'        : require('../assets/icons/header.svg'),
   'blockquote': require('../assets/icons/blockquote.svg'),
   'bold'      : require('../assets/icons/bold.svg'),
   'clean'     : require('../assets/icons/clean.svg'),
@@ -25,7 +26,8 @@ module.exports = {
   'formula'   : require('../assets/icons/formula.svg'),
   'header': {
     '1'       : require('../assets/icons/header.svg'),
-    '2'       : require('../assets/icons/header-2.svg')
+    '2'       : require('../assets/icons/header-2.svg'),
+    '3'       : require('../assets/icons/header-2.svg')
   },
   'italic'    : require('../assets/icons/italic.svg'),
   'image'     : require('../assets/icons/image.svg'),

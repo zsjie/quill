@@ -147,6 +147,12 @@ BaseTheme.DEFAULTS = extend(true, {}, Theme.DEFAULTS, {
         },
         video: function() {
           this.quill.theme.tooltip.edit('video');
+        },
+        hr: function() {
+          let range = this.quill.getSelection(true);
+          this.quill.insertText(range.index, '\n', Emitter.sources.USER);
+          this.quill.insertEmbed(range.index + 1, 'hr', true, Emitter.sources.USER);
+          this.quill.setSelection(range.index + 2, Emitter.sources.SILENT);
         }
       }
     }

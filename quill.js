@@ -5,6 +5,7 @@ import { DirectionAttribute, DirectionClass, DirectionStyle } from './formats/di
 import { IndentClass as Indent } from './formats/indent';
 
 import Blockquote from './formats/blockquote';
+import Hr from './formats/hr';
 import Header from './formats/header';
 import List, { ListItem } from './formats/list';
 
@@ -69,6 +70,7 @@ Quill.register({
   'formats/size': SizeClass,
 
   'formats/blockquote': Blockquote,
+  'formats/hr': Hr,
   'formats/code-block': CodeBlock,
   'formats/header': Header,
   'formats/list': List,
